@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className={style.main}>
       <NavLink className={style.link} to="/">Home</NavLink>
-      <NavLink className={style.link} to="/Favorite">Go To Favorite</NavLink>
+      <NavLink className={style.link} to="/favourite">Go To Favorite</NavLink>
     </div>
   )
 }
